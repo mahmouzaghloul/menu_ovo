@@ -23,6 +23,7 @@ align-items: center;
     flex-direction: column;
     gap: 15px;
 }
+
 .cafe
 {
    
@@ -30,11 +31,49 @@ align-items: center;
     font-weight:200;
     color: white;
 }
+
+
 .OVO
 {
     font-size:80px;
     font-weight: 600;
+  
     color: white;
+    transition: all 7s ease-in-out;
+    animation: o 5s ease-in-out 1;
+}
+
+@keyframes o
+{
+    0%
+    {
+        transform: translatex(-900px)
+    }
+    10%
+    {
+        transform: rotatex(90deg)
+    }
+    20%
+    {
+        transform:scaleX(1.5)
+    }
+    30%
+    {
+        transform:scaley(1)
+    }
+    40%
+    {
+        transform:scaley(.5)
+    }
+    50%
+    {
+        transform:scaley(.3);
+        color: goldenrod;
+        
+    }
+ 
+  
+  
 }
 .SM
 {
