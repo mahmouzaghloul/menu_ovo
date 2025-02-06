@@ -1,0 +1,136 @@
+
+body
+{
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box;
+}
+.hero
+{
+ 
+ background-image: linear-gradient(15deg,green ,#2f4f3f,#2f4f3f,#2f4f3f,green ) !important;
+
+width: 100vw;
+height:70vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.slider
+{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.cafe
+{
+   
+    font-size:18px;
+    font-weight:200;
+    color: white;
+}
+.OVO
+{
+    font-size:80px;
+    font-weight: 600;
+    color: white;
+}
+.SM
+{
+    font-size:19px;
+    font-weight:200;
+    color: white
+}
+.continer
+{
+
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    overflow-x: scroll;
+    background-image: linear-gradient(45deg, #2f4f3f, antiquewhite) !important;
+    height:35px;
+    align-items: center;
+    padding-inline: 20px;
+
+}
+.continers
+{
+display: none;
+}
+.continers:target
+{
+display: block;
+}
+.visible
+{
+  display: block;
+
+}
+.continer a
+{
+    text-decoration: none;
+    color: black;
+    min-width: 190px;
+    text-transform: capitalize;
+   font-weight: 200;
+   font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.continer a:hover
+{
+text-decoration:underline;
+
+}
+.new
+{
+    color: brown;
+}
+
+.text-center
+{
+    text-align: center;
+    display: block;
+    margin-bottom: 10px;
+}
+.gid
+{
+    overflow-y: hidden;
+    width: 100vw;
+    display: grid;
+    gap: 5px;
+    grid-template-columns:45% 45%;
+    justify-content: center;
+
+}
+.gid div
+{
+border:1px solid black
+}
+.contener_items
+{
+    padding:6px;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(10deg, #2f4f3f, antiquewhite , #4bba83) !important;
+    transition: all 1s ease-in-out;
+    border-radius:12px;
+}
+.contener_items:hover
+{
+ 
+    box-shadow: inset 1px 1px 16px green;
+
+}
+.img
+{
+    width:100%;
+    height:70%;
+    border-radius: 12px;
+}
+.item
+{
+    direction: rtl;
+    margin-top: 5px;
+}
