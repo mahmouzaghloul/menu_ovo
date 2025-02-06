@@ -8,7 +8,7 @@ body
 .hero
 {
  
- background-image: linear-gradient(15deg,green ,#2f4f3f,#2f4f3f,#2f4f3f,green ) !important;
+ background-image: linear-gradient(9deg ,#2f4f3f,#388a61,#284134,green ) !important;
 
 width: 100vw;
 height:70vh;
@@ -55,19 +55,17 @@ align-items: center;
     padding-inline: 20px;
 
 }
+
 .continers
 {
 display: none;
 }
+
 .continers:target
 {
 display: block;
 }
-.visible
-{
-  display: block;
 
-}
 .continer a
 {
     text-decoration: none;
